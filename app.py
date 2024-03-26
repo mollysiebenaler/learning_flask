@@ -10,6 +10,7 @@ def index():
 def molly():
     n1 = 10
     n2 = 20
+    sum = n1 + n2
     return str(sum)
 
 if __name__ == "__main__":
