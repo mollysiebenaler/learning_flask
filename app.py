@@ -13,8 +13,14 @@ def molly():
     sum = n1 + n2
     return str(sum)
 
+@app.route("about") 
+def about():
+    return render_template("about.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
